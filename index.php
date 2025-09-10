@@ -79,6 +79,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <h1 class="titulo">Venha fazer parte da nossa academia!</h1>
         <?php endif; ?>
 
+        <div class="img-container">
+            <img src="images/img-controle-total.webp" alt="">
+        </div>
 </body>
 
 </html>
