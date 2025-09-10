@@ -20,12 +20,12 @@ h3{
     margin: 0;
     font-size: 24px;
     text-align: center;
-    color: #0dc7e7;
+    color: #7404dd;
     font-weight: bold;
 }
 
 .titulo {
-    background-color: #0dc7e7;
+    background-color: #7404dd;
     text-align: center;
     color: #fff;
     width: 300px;
@@ -53,7 +53,8 @@ input {
 
 button {
     padding: 10px 16px;
-    background: #6366f1;
+    width: 100%;
+    background: #7404dd;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -94,7 +95,7 @@ button:hover {
 h4 {
     text-align: center;
     font-size: 18px;
-    color: #334155;
+    color: #9b04ff;
     font-weight: bold;
 }
 
