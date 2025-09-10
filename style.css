@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: url(images/874249-1920x1196-desktop-hd-gym-background-photo.jpg);
+}
+
+.card {
+    display: flex;
+    max-width: 400px;
+    margin: 40px auto;
+    flex-direction: column;
+    border: 1px solid #e5e7eb;
+    background: #fff;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    gap: 16px;
+}
+
+h3{
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #0dc7e7;
+    font-weight: bold;
+}
+
+.titulo {
+    background-color: #0dc7e7;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    padding: 12px 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(67,56,202,0.10);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: flex;
+    width: 92%;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    background: #f1f5f9;
+    font-size: 16px;
+    transition: border 0.2s;
+}
+
+button {
+    padding: 10px 16px;
+    background: #6366f1;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #4338ca;
+}
+
+.msg {
+    color: #ef4444;
+    font-weight: bold;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.btn-logout{
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 24px;
+    background: #ef4444;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.btn-logout:hover{
+    background: #b91c1c;
+}
+
+h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #334155;
+    font-weight: bold;
+}
+
+.aulas {
+    display: flex;
+    font-weight: bold;
+    background-color: #f1f5f9;
+    padding: 5%;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 8px;
+}
